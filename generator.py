@@ -1,9 +1,8 @@
 import random
 
-def gen():
+def gen(number):
     letters = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
 
-    number = 8
     password = ""
 
     for i in range(number):
